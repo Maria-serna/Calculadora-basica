@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: teal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.calculadora{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.input_calculadora {
+    width: 450px;
+    height: 27px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid teal;
+}
+
+#operador{
+    border:1px solid teal;
+     background-color: #fff;
+     width: 462px;
+     height: 40px;
+}
+button.input_calculadora{
+    width: 462px;
+    height: 40px;
+}
+
+#resultado {
+    color: teal;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px dotted teal;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#errores {
+    color: #000;
+    font-weight: bold;
+}
+
